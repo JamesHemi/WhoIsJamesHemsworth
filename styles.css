@@ -1,0 +1,85 @@
+body {
+  background-color: #4DA8DA;
+} 
+
+
+
+table {
+    text-align: center;
+    margin: auto;
+    padding: inherit;
+    background-color: #4DA8DA;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+}
+
+.head {
+  color: black;
+  font-size: 30px;
+}
+
+.body {
+  color: black;
+  font-size: 20px;
+}
+
+.col1 {
+  color: black;
+  padding: 15px 25px;
+  width: 150px;
+}
+
+.col2 {
+  color: black;
+  padding: 15px 25px;
+  width: 150px;
+}
+
+.col3 {
+  color: black;
+  padding: 15px 25px;
+  width: 150px;
+}
+
+.col4 {
+  color: red;
+  padding: 10px 25px;
+  width: 150px;
+  font-size: 30px;
+}
+
+
+td {
+  border: 1px solid black;
+}
+
+
+.test1 {
+  background-color: #4DA8DA; 
+  padding: 15px 25px;
+  width: auto;
+}
+
+.button {
+  text-align: center;
+  font-size: 30px;
+  display: inline-block;
+  width: 250px;
+  border: none;
+  background-color: #4DA8DA; 
+  color: white;
+  padding: 12px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #ddd; 
+  color: black;
+}
+
+.buttons {
+  text-align: center;
+}

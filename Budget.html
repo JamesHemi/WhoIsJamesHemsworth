@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Budget</title>
+  <link rel="stylesheet" href="Budget/styles.css">
+  <script src="Budget/script.js"></script>
+  
+  
+
+
+</head>
+<body>
+
+<!-- Editable table -->
+<div>
+<h1>Monthly Bills</h1>
+  <div id="test">
+    <table id="myTable">
+        <thead class="head">
+          <tr>
+            <th>Bill</th>
+            <th>Payment</th>
+            <th>Payoff</th>
+          </tr>
+        </thead>
+        <tbody class="body">
+          <tr>
+            <td class="col1" contenteditable="true">Mortgage</td>
+            <td class="col2" contenteditable="true">1600</td>
+            <td class="col3" contenteditable="true">300000</td>
+          </tr>
+          <tr>
+            <td class="col1" contenteditable="true">Vehicle Payment</td>
+            <td class="col2" contenteditable="true">700</td>
+            <td class="col3" contenteditable="true">40000</td>
+          </tr>
+          <tr>
+            <td class="col1" contenteditable="true">Credit Cards</td>
+            <td class="col2" contenteditable="true">500</td>
+            <td class="col3" contenteditable="true">15000</td>
+          </tr>
+          <tr>
+            <td class="col1" contenteditable="true">Electricity</td>
+            <td class="col2" contenteditable="true">300</td>
+            <td class="col3" contenteditable="true">0</td>
+          </tr>
+          <tr>
+            <td class="col1" contenteditable="true">Water/Trash</td>
+            <td class="col2" contenteditable="true">100</td>
+            <td class="col3" contenteditable="true">0</td>
+          </tr>
+          <tr>
+            <td class="col1" contenteditable="true">Cell Phones</td>
+            <td class="col2" contenteditable="true">150</td>
+            <td class="col3" contenteditable="true">0</td>
+          </tr>
+        </tbody>
+      </table>
+      <table class="totals">
+          <tr>
+            <td class="col4"><strong>Total</strong></td>
+            <td class="col4" id="totalValue"></td>
+            <td class="col4" id="totalValue2"></td>
+          </tr>
+
+          <!-- This is our clonable table line -->
+
+      </table>
+    </div>
+  </div>
+<!-- Editable table -->
+<br>
+<br>
+<div class="buttons">
+  <button class="button" type="button" onclick="myFunction()">Add New Line</button>
+  <button class="button" onclick="todo()">Update Totals</button>
+  <a href="Budget.html" style="text-decoration:none;" class="button">Clear All</a>
+  <a href="index.html" style="text-decoration:none;" class="button">Home</a><br>
+</div><br><br><br>
+
+</body>
+</html>
+
+
+<!-- Still need to implement income and overall profit/loss -->
